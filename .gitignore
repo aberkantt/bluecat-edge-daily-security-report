@@ -1,0 +1,23 @@
+# Local Apps Script binding
+.clasp.json
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+credentials*.json
+client_secret*.json
+*.pem
+*.key
+
+# Generated or exported customer data
+reports/
+exports/
+*.log
+
+# Local tooling and operating-system files
+node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
